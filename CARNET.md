@@ -47,7 +47,7 @@
 
 2. À quoi servent les balises `<h1>`, `<p>`, `<ul>` et `<li>` ?
 
-   > _Ma réponse : '<h1> c'est pour le titre, '<p>' pour un paragraphe, '<ul>' pour une liste à puces et '<li>' pour chaque élément de la liste.
+   > _Ma réponse : "<h1>" c'est pour le titre, '<p>' pour un paragraphe, '<ul>' pour une liste à puces et '<li>' pour chaque élément de la liste.
 
 
 3. Pourquoi l'image s'affiche-t-elle alors qu'elle n'est pas sur votre serveur ?
@@ -111,15 +111,17 @@
 
 1. Dans l'URL `https://www.youtube.com/results?search_query=chat`, quel est le nom du paramètre ? Quelle est sa valeur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le paramètre c'est `search_query` et sa valeur c'est `chat`.
+
 
 2. Pourquoi le serveur plante-t-il avec `a=bonjour` ? Que faudrait-il faire pour l'éviter ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Parce que `int()` ne peut pas transformer « bonjour » en nombre, donc Python fait une erreur (ValueError). Il faudrait vérifier que la valeur est bien un nombre avant de la convertir, et sinon afficher un message d'erreur.
+
 
 3. Pourquoi est-il dangereux d'afficher **tel quel** ce que l'utilisateur envoie ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Parce que l'utilisateur peut mettre du HTML ou un script dans l'URL, et il s'exécute dans la page. Un pirate pourrait envoyer ce lien à quelqu'un et lancer un script malveillant chez lui, par exemple pour voler ses infos. C'est une faille XSS.
 
 ---
 
