@@ -8,7 +8,7 @@
 #  Les consignes sont dans le dossier "exercices/".
 # ---------------------------------------------------------------
 
-from flask import Flask, render_template
+from flask import Flask, render_template, request
 
 app = Flask(__name__)
 
@@ -30,7 +30,9 @@ def presentation():
 def loisirs():
     return " J'aime bien faire des randonnées, Et tout type d'activité physique"
 # ---------------------------------------------------------------
-
+@app.get("/bonjour/<prenom>")
+def bonjour(prenom):
+    return f"<h1>Bonjour {prenom} !</h1>"
 
 
 # ---------------------------------------------------------------
