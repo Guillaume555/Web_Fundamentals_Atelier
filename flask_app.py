@@ -25,7 +25,17 @@ def accueil():
 #  Ajoutez vos nouvelles routes ci-dessous 👇
 @app.get("/presentation")
 def presentation():
-    return "Je m'appelle Guillaume et je suis étudiant en informatique."
+    return """
+    <h1>Guillaume PAPALIA</h1>
+    <p>Je suis étudiante en <strong>troisième année d'informatique</strong>.</p>
+    <h2>Ce que j'aime</h2>
+    <ul>
+        <li>Les jeux vidéo</li>
+        <li>La musique</li>
+        <li>Le code (bientôt !)</li>
+    </ul>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/c/c3/Python-logo-notext.svg" width="100">
+    """
 # ---------------------------------------------------------------
 @app.get("/loisirs")
 def loisirs():
