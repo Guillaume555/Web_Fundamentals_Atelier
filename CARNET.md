@@ -15,11 +15,11 @@
 
 1. Où se trouve physiquement le code qui fabrique votre page : sur votre ordinateur, sur GitHub ou sur PythonAnywhere ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : Sur PythonAnywhere, c'est le serveur qui exécute le code et qui fabrique la page. GitHub garde seulement une copie du code avec l'historique.
 
 2. Pourquoi votre voisin(e) peut-il voir votre site, alors que vous n'avez rien installé sur son ordinateur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : Parce que le site tourne sur le serveur PythonAnywhere qui est connecté à Internet tout le temps.
 
 ---
 
