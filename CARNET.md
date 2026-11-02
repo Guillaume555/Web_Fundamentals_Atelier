@@ -1,10 +1,10 @@
 # 📒 Mon carnet de bord
 
-**Nom :** 
+**Nom : PAPALIA 
 
-**Prénom :** 
+**Prénom : GUILLAUME
 
-**Adresse de mon site :** https://______.pythonanywhere.com
+**Adresse de mon site :** https://guillaume971.pythonanywhere.com
 
 > Modifiez ce fichier directement sur GitHub (icône crayon ✏️) pour répondre aux questions de chaque exercice.
 > Écrivez avec vos propres mots : une réponse courte et juste vaut mieux qu'un long copier-coller ! 🙂
@@ -27,15 +27,15 @@
 
 1. Dans l'URL `https://www.google.com/maps`, quel est le nom de domaine ? Quel est le chemin ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : Le nom de domaine c'est "www.google.com" Et le chemin c'est "/maps" 
 
 2. Que veut dire le message *Not Found* ? Qui l'a envoyé : votre navigateur ou le serveur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : Ça veut dire que la page demandée n'existe pas(erreur 404), C'est le serveur qui l'envoie parce qu'il n'a pas de route pour cette adresse.
 
 3. Que se passe-t-il si deux fonctions portent le même nom dans `flask_app.py` ? (Indice : essayez, puis lisez l'Error log.)
 
-   > _Ma réponse :_ 
+   > _Ma réponse : Le site plante et affiche une page d'erreur. Dans l'Error log il y a 'AssertionError'
 
 ---
 
