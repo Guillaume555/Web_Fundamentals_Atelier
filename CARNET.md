@@ -146,15 +146,15 @@
 
 1. Quelle est la différence entre une erreur `4xx` et une erreur `5xx` ? Qui est « fautif » dans chaque cas ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Les erreurs 4xx c'est quand le problème vient du visiteur, par exemple il demande une page qui n'existe pas (404) ou il n'a pas le droit d'y accéder (403). Les erreurs 5xx c'est quand le problème vient du serveur, par exemple un bug dans le code Python (500). Donc pour 4xx c'est le visiteur qui est fautif et pour 5xx c'est le serveur.
 
 2. Comment fonctionne une redirection ? Qui fait la deuxième requête : le serveur ou le navigateur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Le serveur répond avec un code 302 et il donne la nouvelle adresse. Ensuite c'est le navigateur qui fait tout seul une deuxième requête vers cette adresse.
 
 3. Donnez un exemple de situation où un vrai site utilise une redirection.
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Quand on se connecte sur un site, après avoir mis son mot de passe on est renvoyé vers la page d'accueil ou vers son compte. Ou quand on tape une adresse en http le site nous renvoie direct vers la version en https.
 
 ---
 
