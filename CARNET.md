@@ -43,15 +43,16 @@
 
 1. Quelle est la différence entre ce que le serveur **envoie** et ce que le navigateur **affiche** ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : La différence ce sont les balises HTML, C'est elle qui indique comment interpréter Le texte pour savoir Comment elles doivent s'afficher
 
 2. À quoi servent les balises `<h1>`, `<p>`, `<ul>` et `<li>` ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : '<h1> c'est pour le titre, '<p>' pour un paragraphe, '<ul>' pour une liste à puces et '<li>' pour chaque élément de la liste.
+
 
 3. Pourquoi l'image s'affiche-t-elle alors qu'elle n'est pas sur votre serveur ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse : Parce que le HTML donne l'adresse de l'image. Le navigateur suit cette adresse et va chercher l'image directement sur l'autre serveur.
 
 ---
 
