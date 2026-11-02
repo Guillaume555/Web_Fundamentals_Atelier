@@ -90,19 +90,20 @@
 
 1. Que signifie HTTP ? Qui envoie la **requête** et qui envoie la **réponse** ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ HTTP veut dire HyperText Transfer Protocol. C'est la façon dont le navigateur et le serveur se parlent. Le navigateur envoie la requête et le serveur envoie la réponse.
 
 2. Combien de requêtes votre page `/presentation` a-t-elle déclenchées ? Lesquelles ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ 'presentation' (la page HTML), 'style.css' (le style) et 'favicon.ico' (l'icône de l'onglet).
+
 
 3. Que signifie le code `200` ? Et le code `404` de la favicon ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ 200 veut dire que tout s'est bien passé et que le serveur a envoyé le fichier. 404 veut dire que le fichier n'existe pas : mon site n'a pas d'icône.
 
 4. Pourquoi les modifications faites dans l'onglet Éléments ne sont-elles pas visibles par les autres visiteurs ?
 
-   > _Ma réponse :_ 
+   > _Ma réponse :_ Parce que je modifie seulement la copie de la page dans mon navigateur. Le code sur le serveur ne change pas, donc les autres reçoivent toujours la page normale.
 
 ---
 
